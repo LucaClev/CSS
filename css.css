@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(226, 210, 245);
+    text-align: center;   
+}
+
+ul{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+li{
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: pink;
+    border-style: solid;
+    border-width: thin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover{
+    background-color: rgb(218, 218, 218);
+    border-style: solid;
+}
+
+p{
+    background-color: rgb(218, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    border-style: solid;
+    border-width: thin;
+    padding: 10px;
+    margin: auto;
+}
+
+strong{
+    color: pink;
+    text-shadow: 1px 1px 2px black;
+    font-size: large;
+}
+
+#img1{
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+#headercv{
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+    text-shadow: 1px 1px 2px black;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+}
+
+th{
+    border-style: solid;
+    border-width: medium;
+    width: 250px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(218, 218, 218);
+    padding: 5px;
+}
+
+td{
+    border-style: solid;
+    border-width: medium;
+    width: 250px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    padding: 5px;
+}
+
+table{
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+#headercontact{
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+    text-shadow: 1px 1px 2px black;
+    padding: 5px;
+}
+
+form{
+    display: inline-block;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 10px;
+    width: 500px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px; box-shadow: inset 1px 1px 1px grey;
+    background-color: white;
+    color: black;
+}
+
+textarea{
+    height: 100px;
+}
+
+button:active{
+    background-color: pink;
+    color: black;
+    border-radius: 5px; box-shadow: inset 2px 2px 2px purple;
+}
+
+#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+}
+
+a{
+    color: black;
+}
